@@ -6,6 +6,16 @@ import slide2 from '../../../../assets/img/mlm.png';
 import slide3 from '../../../../assets/img/cr_yvelynes.png';
 import slide4 from '../../../../assets/img/mte.png';
 import slide5 from '../../../../assets/img/tra.png';
+import imgIntm from '../../../../assets/img/intm.png';
+import imgIBM from '../../../../assets/img/ibm.png';
+import imgNextDecision from '../../../../assets/img/nextdecision.png';
+import imgSales from '../../../../assets/img/salesForce.png';
+import imgOdoo from '../../../../assets/img/odoo.png';
+import imgGoogle from '../../../../assets/img/google.png';
+import imgAws from '../../../../assets/img/aws.png';
+import imgMicrosoft from '../../../../assets/img/microsoft.png';
+import imgAmbition from '../../../../assets/img/ambition.png';
+import imgArd from '../../../../assets/img/ard.png';
 
 function Partenaires() {
   const [index, setIndex] = useState(0);
@@ -43,6 +53,36 @@ function Partenaires() {
       </Carousel.Item>
       <Carousel.Item>
         <img src={slide5} height="100vh" alt="mairie de trappes" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={imgIntm} height="100vh" alt="logo INTM" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={imgIBM} height="100vh" alt="logo IBM" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={imgNextDecision} height="100vh" alt="Logo Next decision" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={imgSales} height="100vh" alt="logo Sales Force" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={imgOdoo} height="100vh" alt="logo Odoo" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={imgGoogle} height="100vh" alt="logo google" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={imgAws} height="100vh" alt="logo AWS" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={imgMicrosoft} height="100vh" alt="logo microsoft" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={imgAmbition} height="100vh" alt="logo Ambition Technologies" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src={imgArd} height="100vh" alt="logo ARD com" />
       </Carousel.Item>
     </Carousel>
     </>

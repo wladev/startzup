@@ -16,6 +16,16 @@ import imgGit from "../../../../assets/img/git.png";
 import imgJira from "../../../../assets/img/jira.png";
 import imgSql from "../../../../assets/img/sql.png";
 import imgSales from "../../../../assets/img/salesForce.png";
+import imgOffice from "../../../../assets/img/O365.png";
+import imgServiceNow from "../../../../assets/img/serviceNow.png";
+import imgOdoo from "../../../../assets/img/odoo.png";
+import imgPowerBi from "../../../../assets/img/powerBi.png";
+import imgTalend from "../../../../assets/img/talend.png";
+import imgAs from "../../../../assets/img/as400.png";
+import imgAngular from "../../../../assets/img/angular.png";
+import imgReact from "../../../../assets/img/react.png";
+import imgNoCode from "../../../../assets/img/noCode.png";
+
 
 export default function Parcours() {
     const [modalShowCommun, setModalShowCommun] = useState(false);
@@ -51,6 +61,11 @@ export default function Parcours() {
                         <p>
                             RNCP37873 Concepteur développeur d'applications 
                         </p>
+                    </div>
+                </div>
+                <div className="row my-5 d-flex justify-content-center">
+                    <div className="col-8 " >
+                        <h2 className="text-uppercase fs-2 p-3 rounded" /* style={{'backgroundColor': '#7ae4c479', 'color': 'white',}} */>De l'entrée en formation au recrutement</h2>
                     </div>
                 </div>
                 
@@ -207,7 +222,7 @@ export default function Parcours() {
                         Tronc Commun
                     </Modal.Title>
                 </Modal.Header>
-                <Modal.Body className="text-center">
+                <Modal.Body className="text-center fs-4">
                     <h4 className="text-center text-uppercase rounded" 
                         style={{"backgroundColor": "#ff9d34", 
                                 "color": "white", 
@@ -292,7 +307,7 @@ export default function Parcours() {
                         Spécialisation
                     </Modal.Title>
                 </Modal.Header>
-                <Modal.Body className="text-center">
+                <Modal.Body className="text-center fs-4">
                     <h4 className="text-center text-uppercase rounded" 
                         style={{"backgroundColor": "#6fa6fd", 
                                 "color": "white", 
@@ -303,7 +318,7 @@ export default function Parcours() {
                         Contenu de la formation
                     </h4>
                     <hr className="mb-5"/>
-                    <h6 className="mb-5 text-uppercase text-center" style={{'color' : '#6fa6fd'}}>Langages necessaires au développement</h6>
+                    <h6 className="mb-5 text-uppercase text-center" style={{'color' : '#6fa6fd'}}>Outils de gestion en entreprise</h6>
                     <p className="text-center">
                         Sales Force{" "}
                         <img
@@ -313,19 +328,43 @@ export default function Parcours() {
                         />{" "}
                     </p>
                     <p>
-                        JavaScript{" "}
+                        Odoo{" "}
                         <img
-                            src={imgJs}
+                            src={imgOdoo}
                             style={{ height: "25px" }}
                             alt="logo JavaScript"
                         />
                     </p>
                     <p>
-                        PHP{" "}
+                        Office 365{" "}
                         <img
-                            src={imgPhp}
+                            src={imgOffice}
+                            style={{ height: "25px" }}
+                            alt="logo JavaScript"
+                        />
+                    </p>
+                    <p>
+                        Service Now (Helpdesk){" "}
+                        <img
+                            src={imgServiceNow}
                             style={{ height: "25px" }}
                             alt="logo PHP"
+                        />
+                    </p>
+                    <p>
+                        Power BI{" "}
+                        <img
+                            src={imgPowerBi}
+                            style={{ height: "25px" }}
+                            alt="logo SQL"
+                        />
+                    </p>
+                    <p>
+                        Talend{" "}
+                        <img
+                            src={imgTalend}
+                            style={{ height: "25px" }}
+                            alt="logo SQL"
                         />
                     </p>
                     <p>
@@ -336,23 +375,47 @@ export default function Parcours() {
                             alt="logo SQL"
                         />
                     </p>
-                    <hr className="my-5"/>
-                    <h6 className="mb-5 text-uppercase text-center" style={{'color' : '#6fa6fd'}}>Logiciel de gestion des versions et de projets</h6>
                     <p>
-                        GIT{" "}
+                        AS 400{" "}
                         <img
-                            src={imgGit}
+                            src={imgAs}
+                            style={{ height: "25px" }}
+                            alt="logo SQL"
+                        />
+                    </p>
+                    <hr className="my-5"/>
+                    <h6 className="mb-5 text-uppercase text-center" style={{'color' : '#6fa6fd'}}>Outils de développement Web</h6>
+                    <p>
+                        Angular{" "}
+                        <img
+                            src={imgAngular}
                             style={{ height: "25px" }}
                             alt="logo Git"
                         />
                     </p>
                     <p>
-                        Jira{" "}
+                        React{" "}
                         <img
-                            src={imgJira}
+                            src={imgReact}
                             style={{ height: "25px" }}
                             alt="logo Jira"
                         />
+                    </p>
+                    <p>
+                        No Code{" "}
+                        <img
+                            src={imgNoCode}
+                            style={{ height: "25px" }}
+                            alt="logo Jira"
+                        />
+                    </p>
+                    <hr className="my-5"/>
+                    <h6 className="mb-5 text-uppercase text-center" style={{'color' : '#6fa6fd'}}>Autres modules</h6>
+                    <p>
+                        Entrepreneur
+                    </p>
+                    <p>
+                        IA / Automatisation
                     </p>
                 </Modal.Body>
             </Modal>
@@ -371,7 +434,7 @@ export default function Parcours() {
                         Stage Pratique
                     </Modal.Title>
                 </Modal.Header>
-                <Modal.Body className="text-center">
+                <Modal.Body className="text-center fs-4">
                     <h4 className="text-center text-uppercase rounded" 
                         style={{"backgroundColor": "#7bd134", 
                                 "color": "white", 
@@ -379,66 +442,22 @@ export default function Parcours() {
                                 "paddingBottom": "2vh",
                                 }}
                     >
-                        Contenu de la formation
+                        Poussez les portes de l'entreprise
                     </h4>
                     <hr className="mb-5"/>
-                    <h6 className="mb-5 text-uppercase text-center" style={{'color' : '#7bd134'}}>Langages necessaires au développement</h6>
-                    <p className="text-center">
-                        HTML{" "}
-                        <img
-                            src={imgHtml}
-                            style={{ height: "25px" }}
-                            alt="logo html"
-                        />{" "}
-                        / CSS{" "}
-                        <img
-                            src={imgCSS}
-                            style={{ height: "25px" }}
-                            alt="logo css"
-                        />
+                    <h6 className="mb-5 fs-4 text-uppercase text-center" style={{'color' : '#7bd134'}}>Pourquoi et comment&nbsp;?</h6>
+                    <p className="fs-4">
+                        Intégrer ou réintégrer le monde de l'entreprise est une étape importante.<br /> Start-Zup continue de vous accompagner. 
                     </p>
-                    <p>
-                        JavaScript{" "}
-                        <img
-                            src={imgJs}
-                            style={{ height: "25px" }}
-                            alt="logo JavaScript"
-                        />
+                    <p className="fs-4 mb-5">
+                        Rejoignez une de nos entreprises partenaires pour votre stage pratique. Vous pourrez ainsi:
                     </p>
-                    <p>
-                        PHP{" "}
-                        <img
-                            src={imgPhp}
-                            style={{ height: "25px" }}
-                            alt="logo PHP"
-                        />
-                    </p>
-                    <p>
-                        SQL{" "}
-                        <img
-                            src={imgSql}
-                            style={{ height: "25px" }}
-                            alt="logo SQL"
-                        />
-                    </p>
-                    <hr className="my-5"/>
-                    <h6 className="mb-5 text-uppercase text-center" style={{'color' : '#7bd134'}}>Logiciel de gestion des versions et de projets</h6>
-                    <p>
-                        GIT{" "}
-                        <img
-                            src={imgGit}
-                            style={{ height: "25px" }}
-                            alt="logo Git"
-                        />
-                    </p>
-                    <p>
-                        Jira{" "}
-                        <img
-                            src={imgJira}
-                            style={{ height: "25px" }}
-                            alt="logo Jira"
-                        />
-                    </p>
+                    <ul className="fs-4 mt-5 text-start ">
+                        <li className="my-3" style={{'color' : '#7bd134'}}>Consolider vos acquis</li>
+                        <li className="my-3" style={{'color' : '#7bd134'}}>Pratiquer en situation réelle</li>
+                        <li className="my-3" style={{'color' : '#7bd134'}}>&#201;largir ou créer votre réseau professionnel</li>
+                        <li className="my-3" style={{'color' : '#7bd134'}}>Apporter un élément solide à votre CV</li>
+                    </ul>
                 </Modal.Body>
             </Modal>
         );

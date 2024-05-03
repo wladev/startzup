@@ -91,7 +91,7 @@ h1, h2{
 .formations{
     display: flex;
     justify-content: space-around;
-    background-color: rgba(122, 228, 196, 0.473);
+    background-color: #7ae4c479;
 }
 
 /*modules*/
