@@ -106,12 +106,12 @@ h1, h2{
     color: white;
 }
 #commun{
-    background-color: #ff9d34;
+    background-color: #faa8ca;
     color: white;
     height: 100%;
 }
 #commun:hover{
-    background-color: #ff8400;
+    background-color: #fa86fa;
     color: white;
 }
 

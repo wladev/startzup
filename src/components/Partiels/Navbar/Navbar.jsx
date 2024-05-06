@@ -25,8 +25,8 @@ function NavbarTop() {
             <NavLink to="/agenda" className={'nav_link ms-lg-4 '}>Agenda</NavLink>
             <NavLink to="/a_propos" className={'nav_link ms-lg-4 '}>&#192; propos</NavLink>
             <NavLink to="/presse" className={'nav_link ms-lg-4 '}>Presse</NavLink>
-            <NavLink to="/entreprises" className={'nav_link ms-lg-4 '}>Entreprises</NavLink>
-            <NavLink to="/contact" className={'nav_link ms-lg-4 ' }>Contactez-nous</NavLink>
+            <NavLink to="/Entreprises" className={'nav_link ms-lg-4 '}>Entreprises</NavLink>
+            <NavLink to="/Contact" className={'nav_link ms-lg-4 ' }>Contactez-nous</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

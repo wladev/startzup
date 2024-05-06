@@ -1,6 +1,6 @@
 import React from "react";
-import imgSchool1 from "../../../../assets/img/school1.jpg";
-import imgSchool2 from "../../../../assets/img/school2.jpg";
+// import imgSchool1 from "../../../../assets/img/school1.jpg";
+// import imgSchool2 from "../../../../assets/img/school2.jpg";
 
 
 
@@ -17,7 +17,7 @@ export default function Objectifs(){
             </div>
             <div className="row mt-5 d-flex justify-content-end align-items-end">
                 <div className="col-lg-3 mb-3">
-                    <img src={imgSchool1} alt="" width={200}/>
+                    {/* <img src={imgSchool1} alt="" width={200}/> */}
                 </div>
                 <div className="col-lg-6 my-auto">
                     <p className="fs-5">
@@ -30,7 +30,7 @@ une formation complète et gratuite dans les métiers du numérique et du digita
             </div>
             <div className="row mt-5 d-flex justify-content-start align-items-start">
                 <div className="col-lg-3 mb-3">
-                    <img src={imgSchool2} alt="" width={200}/>
+                    {/* <img src={imgSchool2} alt="" width={200}/> */}
                 </div>
                 <div className="col-lg-6 my-auto">
                     <p className="fs-5">

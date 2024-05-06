@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Parcours from "./Parcours/Parcours";
 import Integration from "./Integration/Integration";
 import ApresForm from "./ApresForm/ApresForm";
+import PourquoiSZ from "./pourquoiSZ/PourquoiSZ";
 // import s from './formations.module.css'
 
 export function Formations (props){
@@ -15,6 +16,7 @@ export function Formations (props){
             
         </div>
         <Parcours/>
+        <PourquoiSZ />
         <ApresForm />
         <Integration />
         </>
