@@ -217,14 +217,14 @@ export default function Parcours() {
                 centered
                 id="modal_commun"
             >
-                <Modal.Header closeButton style={{'backgroundColor': '#ff9d34',}} >
+                <Modal.Header closeButton style={{'backgroundColor': '#faa8ca',}} >
                     <Modal.Title id="" className="text-uppercase mx-auto">
                         Tronc Commun
                     </Modal.Title>
                 </Modal.Header>
                 <Modal.Body className="text-center fs-4">
                     <h4 className="text-center text-uppercase rounded" 
-                        style={{"backgroundColor": "#ff9d34", 
+                        style={{"backgroundColor": "#faa8ca", 
                                 "color": "white", 
                                 "paddingTop": "2vh", 
                                 "paddingBottom": "2vh",
@@ -233,7 +233,7 @@ export default function Parcours() {
                         Contenu de la formation
                     </h4>
                     <hr className="mb-5"/>
-                    <h6 className="mb-5 text-uppercase text-center" style={{'color' : '#ff9d34'}}>Langages necessaires au développement</h6>
+                    <h6 className="mb-5 text-uppercase text-center" style={{'color' : '#faa8ca'}}>Langages necessaires au développement</h6>
                     <p className="text-center">
                         HTML{" "}
                         <img
@@ -273,7 +273,7 @@ export default function Parcours() {
                         />
                     </p>
                     <hr className="my-5"/>
-                    <h6 className="mb-5 text-uppercase text-center" style={{'color' : '#ff9d34'}}>Logiciel de gestion des versions et de projets</h6>
+                    <h6 className="mb-5 text-uppercase text-center" style={{'color' : '#faa8ca'}}>Logiciel de gestion des versions et de projets</h6>
                     <p>
                         GIT{" "}
                         <img

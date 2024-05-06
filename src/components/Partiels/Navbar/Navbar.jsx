@@ -22,9 +22,9 @@ function NavbarTop() {
         <Navbar.Collapse id="basic-navbar-nav ">
           <Nav className=" ms-auto text-uppercase " style={{"fontSize": "0.9em"}}>
             <NavLink to="/Formations"className={'nav_link '}>Nos Formations</NavLink>
-            <NavLink to="/agenda" className={'nav_link ms-lg-4 '}>Agenda</NavLink>
+            <NavLink to="/Agenda" className={'nav_link ms-lg-4 '}>Agenda</NavLink>
             <NavLink to="/a_propos" className={'nav_link ms-lg-4 '}>&#192; propos</NavLink>
-            <NavLink to="/presse" className={'nav_link ms-lg-4 '}>Presse</NavLink>
+            <NavLink to="/Presse" className={'nav_link ms-lg-4 '}>Presse</NavLink>
             <NavLink to="/Entreprises" className={'nav_link ms-lg-4 '}>Entreprises</NavLink>
             <NavLink to="/Contact" className={'nav_link ms-lg-4 ' }>Contactez-nous</NavLink>
           </Nav>

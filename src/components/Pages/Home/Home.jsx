@@ -3,6 +3,7 @@ import Background from "./Background/Background";
 // import { Presentation } from "../APropos/Presentation/Presentation"
 import "../../../assets/css/style.css";
 import Partenaires from "./Partenaires/Partenaiers";
+import Video from "./Video/Video";
 
 // export class Home extends React.Component {
 export function Home() {
@@ -28,6 +29,7 @@ export function Home() {
                     </div>
                 </div>
             </div>
+            <Video/>
             <Partenaires />
         </>
     );
