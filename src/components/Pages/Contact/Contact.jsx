@@ -9,10 +9,13 @@ export function Contact() {
         <Helmet>
             <title>Contact</title>
         </Helmet>
-        <div className="container-fluid">
+        <div className="container-fluid" style={{'marginTop': '20vh'}}>
        <div className="row">
         <div className="col">
-            sdgfdsdv
+            <p>paragraphe</p>
+            <p>paragraphe</p>
+            <p>paragraphe</p>
+            <p>paragraphe</p>
         </div>
        </div>
        </div>

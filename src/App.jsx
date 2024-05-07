@@ -10,6 +10,7 @@ import { Home } from './components/Pages/Home/Home';
 import {Contact} from './components/Pages/Contact/Contact';
 import Presse from './components/Pages/Presse/presse';
 import Entreprises from './components/Pages/Entreprises/Entreprises';
+import Agenda from './components/Pages/Agenda/Agenda';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path = '/Formations' element={<Formations />} />
         <Route path = '/a_propos' element={<Apropos />} />
         <Route path = '/Contact' element={<Contact />} />
+        <Route path = '/Agenda' element={<Agenda />} />
         <Route path = '/Presse' element={<Presse />} />
         <Route path = '/Entreprises' element={<Entreprises />} />
       </Routes>

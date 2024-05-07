@@ -16,6 +16,11 @@ function Presse() {
             <Helmet>
                 <title>Presse</title>
             </Helmet>
+            <div className="row" style={{'marginTop': '20vh'}}>
+              <div className="col">
+                <h2 className="text-uppercase">Ils parlent de nous</h2>
+              </div>
+            </div>
             <div
                 className="row d-flex gap-3 justify-content-center"
                 style={{ marginTop: "150px", gap: "3" }}
