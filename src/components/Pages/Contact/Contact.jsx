@@ -6,7 +6,7 @@ import Form from "react-bootstrap/Form";
 export default function Contact() {
     return (
         <>
-            <div className="container-fluid">
+            <div className="container">
                     <div className="row mx-5" style={{ "margin-top": "20vh" }}>
                         <h2 className="text-uppercase mb-3">Pour candidater à une prochaine session ou solliciter nos services d'accompagnement d'entreprises</h2>
                         <p className="mb-3 fs-5">Renseignez vos informations, nous vous contacterons dans les plus brefs délais</p>
@@ -19,17 +19,16 @@ export default function Contact() {
                     <div className="col-lg-6 ">
                         <h2 className="text-uppercase mt-5" style={{ color: "white" }}>Formulaire de contact</h2>
                         <Form>
+                            <p className="mt-5" style={{ color: "white" }}>Vos Informations de contact</p>
                             <Form.Select
                                 aria-label="Default select example"
-                                className="mb-3 mt-5"
+                                className="mb-3"
                             >
                                 <option>Vous êtes ?</option>
                                 <option value="1">Un particulier</option>
                                 <option value="2">Une entreprise</option>
-                                {/* <option value="3">Three</option> */}
                             </Form.Select>
                             <FormGroup className="mb-3">
-                                {/* <Form.Label htmlFor="inputFstName" style={{ color: "white" }}>Votre nom</Form.Label> */}
                                 <Form.Control
                                     type="text"
                                     id="inputFstName"
@@ -37,7 +36,6 @@ export default function Contact() {
                                 />
                             </FormGroup>
                             <FormGroup className="mb-3">
-                                {/* <Form.Label htmlFor="inputLstName" style={{ color: "white" }}>Votre nom</Form.Label> */}
                                 <Form.Control
                                     type="text"
                                     id="inputLstName"
@@ -48,18 +46,10 @@ export default function Contact() {
                                 className="mb-3"
                                 controlId="formBasicEmail"
                             >
-                                {/* <Form.Label>Email address</Form.Label> */}
                                 <Form.Control
                                     type="email"
                                     placeholder="Entrez votre email"
                                 />
-                                {/* <Form.Text
-                                    className=" "
-                                    style={{ color: "white" }}
-                                >
-                                    We'll never share your email with anyone
-                                    else.
-                                </Form.Text> */}
                             </Form.Group>
                             <Form.Select
                                 aria-label="Default select example"
@@ -97,6 +87,10 @@ export default function Contact() {
                                     Pôle emploi / Mission locale
                                 </option>
                             </Form.Select>
+                            <Form.Group controlId="formFile" className="mb-3">
+        <Form.Label style={{ color: "white" }}>Faites nous parvenir votre CV</Form.Label>
+        <Form.Control type="file" />
+      </Form.Group>
 
                             <Form.Group
                                 className="mb-3"
