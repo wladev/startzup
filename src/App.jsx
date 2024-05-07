@@ -7,7 +7,7 @@ import Footer from './components/Partiels/Footer/Footer';
 import { Apropos } from './components/Pages/APropos/Apropos';
 import { Formations } from './components/Pages/Formations/Formations';
 import { Home } from './components/Pages/Home/Home';
-import {Contact} from './components/Pages/Contact/Contact';
+import Contact from './components/Pages/Contact/Contact';
 import Presse from './components/Pages/Presse/presse';
 import Entreprises from './components/Pages/Entreprises/Entreprises';
 import Agenda from './components/Pages/Agenda/Agenda';

@@ -57,15 +57,30 @@ export default function Footer() {
 
         <section className='mb-4'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum repellat quaerat
-            voluptatibus placeat nam, commodi optio pariatur est quia magnam eum harum corrupti dicta, aliquam
-            sequi voluptate quas.
+            Restez informés de nos actualités et de nos événements
           </p>
         </section>
 
         <section className=''>
           <MDBRow>
-            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
+            <MDBCol lg='12' md='12' className='mb-4 mb-md-0'>
+              <h5 className='text-uppercase'>Liens utiles</h5>
+
+              <ul className='list-unstyled mb-0'>
+                <li>
+                  <a href='#!' className='text-dark'>
+                    RGPD
+                  </a>
+                </li>
+                <li>
+                  <a href='#!' className='text-dark'>
+                    Condutions générales
+                  </a>
+                </li>
+              </ul>
+            </MDBCol>
+
+            {/* <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
               <h5 className='text-uppercase'>Links</h5>
 
               <ul className='list-unstyled mb-0'>
@@ -114,24 +129,7 @@ export default function Footer() {
                   </a>
                 </li>
               </ul>
-            </MDBCol>
-
-            <MDBCol lg='3' md='6' className='mb-4 mb-md-0'>
-              <h5 className='text-uppercase'>Links</h5>
-
-              <ul className='list-unstyled mb-0'>
-                <li>
-                  <a href='#!' className='text-dark'>
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href='#!' className='text-dark'>
-                    Link 2
-                  </a>
-                </li>
-              </ul>
-            </MDBCol>
+            </MDBCol> */}
           </MDBRow>
         </section>
       </MDBContainer>

@@ -22,13 +22,12 @@ function Presse() {
               </div>
             </div>
             <div
-                className="row d-flex gap-3 justify-content-center"
-                style={{ marginTop: "150px", gap: "3" }}
+                className="row d-flex gap-3 justify-content-center mt-5"
             >
                 <Card style={{ width: "18rem" }}>
                     <Card.Img variant="top" src={imgMantes} height={100} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        {/* <Card.Title>Card Title</Card.Title> */}
                         <Card.Text>
                             Start Zup à Mantes-la-Jolie : l’école du numérique
                             au Campus de formation Paul Cézanne <br />
@@ -46,7 +45,7 @@ function Presse() {
                 <Card style={{ width: "18rem" }}>
                     <Card.Img variant="top" src={imgParisien} height={100} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        {/* <Card.Title>Card Title</Card.Title> */}
                         <Card.Text>
                             Mantes-la-Jolie : à l’école du numérique Start Zup,
                             une formation de trois mois et un boulot
@@ -64,7 +63,7 @@ function Presse() {
                 <Card style={{ width: "18rem" }}>
                     <Card.Img variant="top" src={imgGazette} height={100} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        {/* <Card.Title>Card Title</Card.Title> */}
                         <Card.Text>
                             L’école du numérique Start zup arrive dans la
                             commune <br />
@@ -82,7 +81,7 @@ function Presse() {
                 <Card style={{ width: "18rem" }}>
                     <Card.Img variant="top" src={img78Actu} height={100} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        {/* <Card.Title>Card Title</Card.Title> */}
                         <Card.Text>
                             Mantes-la-Jolie : du Val Fourré à Las Vegas, cette
                             association l’a fait <br /> <br /> <br />
@@ -99,7 +98,7 @@ function Presse() {
                 <Card style={{ width: "18rem" }}>
                     <Card.Img variant="top" src={imgLfm} height={100} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        {/* <Card.Title>Card Title</Card.Title> */}
                         <Card.Text>
                             LE MERCATO DE L'EMPLOI : L'ÉCOLE DU NUMÉRIQUE DE
                             L'ASSOCIATION START ZUP
@@ -117,7 +116,7 @@ function Presse() {
                 <Card style={{ width: "18rem" }}>
                     <Card.Img variant="top" src={imgYvelines} height={100} />
                     <Card.Body>
-                        <Card.Title height={300}>Card Title</Card.Title>
+                        {/* <Card.Title height={300}>Card Title</Card.Title> */}
                         <Card.Text>
                             Mantes-la-Jolie : à l’école du numérique Start Zup,
                             une formation de trois mois et un boulot
@@ -135,7 +134,7 @@ function Presse() {
                 <Card style={{ width: "18rem" }}>
                     <Card.Img variant="top" src={imgItr} height={100} />
                     <Card.Body>
-                        <Card.Title height={300}>Card Title</Card.Title>
+                        {/* <Card.Title height={300}>Card Title</Card.Title> */}
                         <Card.Text>
                             Mantes-la-Jolie : à l’école du numérique Start Zup,
                             une formation de trois mois et un boulot
@@ -145,6 +144,7 @@ function Presse() {
                             href="https://itrnews.com/communiques-de-presse/47683/chg-meridian-france-sengage-aupres-de-la-nouvelle-association-start-zup"
                             target="__blank"
                             variant="dark"
+                            // style={{'backgroundColor': '#36E2AD', ' backgroundColor::hover': 'blue'}}
                         >
                             Lire l'article
                         </Button>
@@ -153,7 +153,7 @@ function Presse() {
                 <Card style={{ width: "18rem" }}>
                     <Card.Img variant="top" src={imgEchos} height={100} />
                     <Card.Body>
-                        <Card.Title height={300}>Card Title</Card.Title>
+                        {/* <Card.Title height={300}>Card Title</Card.Title> */}
                         <Card.Text>
                             Mantes-la-Jolie : à l’école du numérique Start Zup,
                             une formation de trois mois et un boulot
